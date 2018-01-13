@@ -1,0 +1,1030 @@
+﻿A卷    目标——学习——测试
+B卷   非目标——学习——测试
+
+<values>
+	/xuexitime = 0
+</values>
+
+<expressions>
+	/generaterandom500 =  ceil(rand(450,550))
+    /generaterandom900 =  ceil(rand(850,950))
+</expressions>
+
+
+
+
+
+***********step1:定义item，一个bloclk用4个item，一共16个item*******
+1 学习测试 xuexiceshi  10
+2 学习不测 xuexibuce   10
+3 不学测试 buxueceshi  10
+4 学习测试 ceshi       10   （用于A卷text定义）
+5 不学测试 buce        10   （用于B卷text定义）
+
+
+
+<item FiveLeftF_xuexiceshi>
+/1="式"
+/2="刑"
+/3="动"
+/4="扛"
+/5="寺"
+/6="吉"
+/7="扩"
+/8="扫"
+/9="场"
+/10="耳"
+</item>
+500ms,目标出现在左侧，好感F，学习测试组，10个汉字
+
+<item FiveLeftF_xuexibuce>
+/1="共"
+/2="过"
+/3="臣"
+/4="再"
+/5="协"
+/6="灰"
+/7="达"
+/8="邪"
+/9="划"
+/10="迈"
+</item>
+500ms，目标出现在左侧，好感F，只学习，不测试组，10个汉字
+
+<item FiveLeftF_buxueceshi>
+/1="毕"
+/2="至"
+/3="此"
+/4="贞"
+/5="师"
+/6="尘"
+/7="尖"
+/8="当"
+/9="早"
+/10="吐"
+</item>
+500ms，目标出现在左侧，好感F，没学习过的，用于测试组，10个汉字
+
+<item FiveLeftF_ceshi>
+/1="式"
+/2="刑"
+/3="动"
+/4="扛"
+/5="寺"
+/6="吉"
+/7="扩"
+/8="扫"
+/9="场"
+/10="耳"
+</item>
+
+<item FiveLeftF_buce>
+/1="共"
+/2="过"
+/3="臣"
+/4="再"
+/5="协"
+/6="灰"
+/7="达"
+/8="邪"
+/9="划"
+/10="迈"
+</item>
+500ms，目标出现在左侧，好感F，只学习，不测试组，10个汉字
+
+
+
+
+<item FiveRightF_xuexiceshi>
+/1="吓"
+/2="虫"
+/3="曲"
+/4="团"
+/5="同"
+/6="吊"
+/7="吃"
+/8="因"
+/9="吸"
+/10="吗"
+</item>
+500ms，目标出现在右侧，好感J，学习测试组，10个汉字
+
+<item FiveRightF_xuexibuce>
+/1="屿"
+/2="帆"
+/3="岁"
+/4="回"
+/5="岂"
+/6="刚"
+/7="则"
+/8="肉"
+/9="网"
+/10="年"
+</item>
+500ms，目标出现在右侧，好感J，只学习，不测试组，10个汉字
+
+<item FiveRightF_buxueceshi>
+/1="冲"
+/2="冰"
+/3="庄"
+/4="庆"
+/5="亦"
+/6="刘"
+/7="齐"
+/8="交"
+/9="妄"
+/10="闭"
+</item>
+500ms，目标出现在右侧，好感J，没学习过的，用于测试组，10个汉字
+
+<item FiveRightF_ceshi>
+/1="吓"
+/2="虫"
+/3="曲"
+/4="团"
+/5="同"
+/6="吊"
+/7="吃"
+/8="因"
+/9="吸"
+/10="吗"
+</item>
+
+<item FiveRightF_buce>
+/1="屿"
+/2="帆"
+/3="岁"
+/4="回"
+/5="岂"
+/6="刚"
+/7="则"
+/8="肉"
+/9="网"
+/10="年"
+</item>
+
+
+
+
+<item NineLeftJ_xuexiceshi>
+/1="朱"
+/2="先"
+/3="丢"
+/4="乒"
+/5="休"
+/6="伍"
+/7="伏"
+/8="优"
+/9="伐"
+/10="延"
+</item>
+900ms，目标出现在左侧，好感F，学习测试组，10个汉字
+
+<item NineLeftJ_xuexibuce>
+/1="问"
+/2="闯"
+/3="羊"
+/4="并"
+/5="污"
+/6="守"
+/7="设"
+/8="访"
+/9="寻"
+/10="那"
+</item>
+900ms，目标出现在左侧，好感F，只学习，不测试组，10个汉字
+
+<item NineLeftJ_buxueceshi>
+/1="迅"
+/2="尽"
+/3="导"
+/4="异"
+/5="孙"
+/6="妈"
+/7="戏"
+/8="羽"
+/9="约"
+/10="纪"
+</item>
+900ms，目标出现在左侧，好感F，没学习过的，用于测试组，10个汉字
+
+<item NineLeftJ_ceshi>
+/1="朱"
+/2="先"
+/3="丢"
+/4="乒"
+/5="休"
+/6="伍"
+/7="伏"
+/8="优"
+/9="伐"
+/10="延"
+</item>
+
+<item NineLeftJ_buce>
+/1="问"
+/2="闯"
+/3="羊"
+/4="并"
+/5="污"
+/6="守"
+/7="设"
+/8="访"
+/9="寻"
+/10="那"
+</item>
+
+
+
+
+<item NineRightJ_xuexiceshi>
+/1="伤"
+/2="价"
+/3="华"
+/4="仰"
+/5="仿"
+/6="伙"
+/7="伪"
+/8="自"
+/9="血"
+/10="向"
+</item>
+900ms，目标出现在右侧，好感J，学习测试组，10个汉字
+
+<item NineRightJ_xuexibuce>
+/1="似"
+/2="后"
+/3="行"
+/4="舟"
+/5="全"
+/6="众"
+/7="爷"
+/8="伞"
+/9="创"
+/10="肌"
+</item>
+900ms，目标出现在右侧，好感J，只学习，不测试组，10个汉字
+
+<item NineRightJ_buxueceshi>
+/1="朵"
+/2="杂"
+/3="危"
+/4="旬"
+/5="各"
+/6="名"
+/7="多"
+/8="争"
+/9="色"
+/10="壮"
+</item>
+900ms，目标出现在右侧，好感J，没学习过的，用于测试组，10个汉字
+
+<item NineRightJ_ceshi>
+/1="伤"
+/2="价"
+/3="华"
+/4="仰"
+/5="仿"
+/6="伙"
+/7="伪"
+/8="自"
+/9="血"
+/10="向"
+</item>
+
+<item NineRightJ_buce>
+/1="似"
+/2="后"
+/3="行"
+/4="舟"
+/5="全"
+/6="众"
+/7="爷"
+/8="伞"
+/9="创"
+/10="肌"
+</item>
+
+
+
+
+<item lianxi_xuexiceshi>
+/1="玉"
+/2="刊"
+/3="示"
+/4="未"
+/5="击"
+/6="扑"
+/7="古"
+/8="丙"
+/9="左"
+/10="右"
+</item>
+
+<item lianxi_xuexibuce>
+/1="石"
+/2="布"
+/3="龙"
+/4="轧"
+/5="卡"
+/6="北"
+/7="占"
+/8="帅"
+/9="旦"
+/10="目"
+</item>
+
+<item lianxi_buxueceshi>
+/1="甲"
+/2="叮"
+/3="田"
+/4="史"
+/5="叫"
+/6="失"
+/7="付"
+/8="仗"
+/9="代"
+/10="们"
+</item>
+
+<item lianxi_ceshi>
+/1="玉"
+/2="刊"
+/3="示"
+/4="未"
+/5="击"
+/6="扑"
+/7="古"
+/8="丙"
+/9="左"
+/10="右"
+</item>
+
+<item lianxi_buce>
+/1="石"
+/2="布"
+/3="龙"
+/4="轧"
+/5="卡"
+/6="北"
+/7="占"
+/8="帅"
+/9="旦"
+/10="目"
+</item>
+
+
+<item instruction>
+/1 = "好感f.bmp"
+/2 = "好感j.bmp"
+/3 = "练习.bmp"
+</item>
+
+<item dangban>
+/1 = "挡板.bmp"
+</item>
+
+<item jieshuyu>
+/1 ="结束语.bmp"
+</item>
+
+
+<picture instruction1>
+/select = 1
+/erase = True(0,0,0) 
+/halign = center
+/items = instruction
+/size = (100%,100%)
+</picture>
+
+<picture instruction2>
+/select = 2
+/erase = True(0,0,0) 
+/halign = center
+/items = instruction
+/size = (100%,100%)
+</picture>
+
+<picture instruction3>
+/select = 3
+/erase = True(0,0,0) 
+/halign = center
+/items = instruction
+/size = (100%,100%)
+</picture>
+
+<picture dangban>
+/erase = True(0,0,0) 
+/halign = center
+/items = dangban
+/size = (1920,1080)
+</picture>
+
+<picture jieshuyu>
+/erase = True(0,0,0) 
+/halign = center
+/items = jieshuyu
+/size = (100%,100%)
+</picture>
+***************step2：定义stimulus，定义学习模块和测试模块的呈现方式*****************
+
+A卷：16个text，其中1个block使用4个text，在学习模块，左侧呈现1个text（10个字），右侧呈现1个text（10个字），在测试模块，呈现2个text（20个字）
+
+分为A，B两卷，A卷测试目标学习字以及没有学习字；B卷测试非目标学习字以及没有学习字
+
+因为有B卷，所以多设置一个text用于定义非目标学习字在测试中的呈现方式
+<text fixation>
+	/items = ("+")
+	/fontstyle = ("Arial", 80ptc)
+	/txbgcolor = (transparent)
+	/txcolor = (255,255,255)
+</text>
+
+
+
+
+
+<text FiveLeftF_xuexiceshi_txt>
+/items = FiveLeftF_xuexiceshi
+/position = (25,50)
+/ fontstyle = ("Agency FB", 20%, false, false, true, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习模块，学习测试组（10个字），呈现在左侧，有下划线。
+
+<text FiveLeftF_xuexibuce_txt>
+/items = FiveLeftF_xuexibuce
+/position = (75,50)
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习模块，学习不测验组（10个字），呈现在右侧，没有下划线
+
+<text FiveLeftF_buxueceshi_txt>
+/items = FiveLeftF_buxueceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+测试模块，没学习测试组（10个字）
+
+<text FiveLeftF_ceshi_txt>
+/items = FiveLeftF_ceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+测试模块，学习过的字用于测试（10个字）
+
+<text FiveLeftF_buce_txt>
+/items = FiveLeftF_buce
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+
+
+
+
+
+
+<text FiveRightF_xuexiceshi_txt>
+/items = FiveRightF_xuexiceshi
+/position = (75,50)
+/ fontstyle = ("Agency FB", 20%, false, false, true, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习测试组（10个字），呈现在右侧，有下划线。
+
+<text FiveRightF_xuexibuce_txt>
+/items = FiveRightF_xuexibuce
+/position = (25,50)
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习不测验组（10个字），呈现在左侧，没有下划线
+
+<text FiveRightF_buxueceshi_txt>
+/items = FiveRightF_buxueceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+测试模块，没学习测试组（10个字）
+
+<text FiveRightF_ceshi_txt>
+/items = FiveRightF_ceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+测试模块，学习过的字用于测试（10个字）
+
+<text FiveRightF_buce_txt>
+/items = FiveRightF_buce
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+
+
+
+
+<text NineLeftJ_xuexiceshi_txt>
+/items = NineLeftJ_xuexiceshi
+/position = (25,50)
+/ fontstyle = ("Agency FB", 20%, false, false, true, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习测试组（10个字），呈现在左侧，有下划线。
+
+
+<text NineLeftJ_xuexibuce_txt>
+/items = NineLeftJ_xuexibuce
+/position = (75,50)
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习不测验组（10个字），呈现在右侧，没有下划线
+
+<text NineLeftJ_buxueceshi_txt>
+/items = NineLeftJ_buxueceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+测试模块，没学习测试组（10个字）
+
+<text NineLeftJ_ceshi_txt>
+/items = NineLeftJ_ceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+测试模块，学习过的字用于测试（10个字）
+
+<text NineLeftJ_buce_txt>
+/items = NineLeftJ_buce
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+
+
+
+
+<text NineRightJ_xuexiceshi_txt>
+/items = NineRightJ_xuexiceshi
+/position = (75,50)
+/ fontstyle = ("Agency FB", 20%, false, false, true, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习测试组（10个字），呈现在右侧，有下划线。
+
+<text NineRightJ_xuexibuce_txt>
+/items = NineRightJ_xuexibuce
+/position = (25,50)
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习不测验组（10个字），呈现在左侧，没有下划线
+
+<text NineRightJ_buxueceshi_txt>
+/items = NineRightJ_buxueceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+测试模块，没学习测试组（10个字）
+
+<text NineRightJ_ceshi_txt>
+/items = NineRightJ_ceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+测试模块，学习过的字用于测试（10个字）
+
+<text NineRightJ_buce_txt>
+/items = NineRightJ_buce
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+
+
+
+练习
+<text lianxi_xuexiceshi_txt>
+/items = lianxi_xuexiceshi
+/position = (25,50)
+/ fontstyle = ("Agency FB", 20%, false, false, true, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习测试组（10个字），呈现在左侧，有下划线。
+
+<text lianxi_xuexibuce_txt>
+/items = lianxi_xuexibuce
+/position = (75,50)
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+学习不测验组（10个字），呈现在右侧，没有下划线
+
+<text lianxi_buxueceshi_txt>
+/items = lianxi_buxueceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+测试模块，没学习测试组（10个字）
+
+<text lianxi_ceshi_txt>
+/items = lianxi_ceshi
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+
+<text lianxi_buce_txt>
+/items = lianxi_buce
+/ fontstyle = ("Agency FB", 20%, false, false, false, false, 5, 1)
+/ txcolor = (255, 255, 255)
+/ txbgcolor = (0, 0, 0)
+/select = noreplace
+</text>
+
+
+****************step3：定义trial,4个学习trial,8个测试trial(4x2(是否学习过)*****************
+学习trial中，左右同时呈现两个text
+
+学习
+<trial FiveLeftF_xuexi>
+/validresponse = (noresponse)
+/trialduration = values.xuexitime
+/ontrialbegin = [values.xuexitime = expressions.generaterandom500+50]
+/ontrialbegin = [trial.FiveLeftF_xuexi.insertstimulustime(text.fixation, 0)]
+/ontrialbegin = [trial.FiveLeftF_xuexi.insertstimulustime(picture.dangban,50)]
+/ontrialbegin = [trial.FiveLeftF_xuexi.insertstimulustime(text.FiveLeftF_xuexiceshi_txt,values.xuexitime)]
+/ontrialbegin = [trial.FiveLeftF_xuexi.insertstimulustime(text.FiveLeftF_xuexibuce_txt,values.xuexitime)]
+/ontrialend = [trial.FiveLeftF_xuexi.clearstimulusframes()]
+</trial>
+
+
+<trial FiveRightF_xuexi>
+/validresponse = (noresponse)
+/trialduration = values.xuexitime
+/ontrialbegin = [values.xuexitime = expressions.generaterandom500+50]
+/ontrialbegin = [trial.FiveRightF_xuexi.insertstimulustime(text.fixation, 0)]
+/ontrialbegin = [trial.FiveRightF_xuexi.insertstimulustime(picture.dangban,50)]
+/ontrialbegin = [trial.FiveRightF_xuexi.insertstimulustime(text.FiveRightF_xuexiceshi_txt,values.xuexitime)]
+/ontrialbegin = [trial.FiveRightF_xuexi.insertstimulustime(text.FiveRightF_xuexibuce_txt,values.xuexitime)]
+/ontrialend = [trial.FiveRightF_xuexi.clearstimulusframes()]
+</trial>
+
+
+<trial NineLeftJ_xuexi>
+/validresponse = (noresponse)
+/trialduration = values.xuexitime
+/ontrialbegin = [values.xuexitime = expressions.generaterandom900+50]
+/ontrialbegin = [trial.NineLeftJ_xuexi.insertstimulustime(text.fixation, 0)]
+/ontrialbegin = [trial.NineLeftJ_xuexi.insertstimulustime(picture.dangban,50)]
+/ontrialbegin = [trial.NineLeftJ_xuexi.insertstimulustime(text.NineLeftJ_xuexiceshi_txt,values.xuexitime)]
+/ontrialbegin = [trial.NineLeftJ_xuexi.insertstimulustime(text.NineLeftJ_xuexibuce_txt,values.xuexitime)]
+/ontrialend = [trial.NineLeftJ_xuexi.clearstimulusframes()]
+</trial>
+
+
+<trial NineRightJ_xuexi>
+/validresponse = (noresponse)
+/trialduration = values.xuexitime
+/ontrialbegin = [values.xuexitime = expressions.generaterandom900+50]
+/ontrialbegin = [trial.NineRightJ_xuexi.insertstimulustime(text.fixation, 0)]
+/ontrialbegin = [trial.NineRightJ_xuexi.insertstimulustime(picture.dangban,50)]
+/ontrialbegin = [trial.NineRightJ_xuexi.insertstimulustime(text.NineRightJ_xuexiceshi_txt,values.xuexitime)]
+/ontrialbegin = [trial.NineRightJ_xuexi.insertstimulustime(text.NineRightJ_xuexibuce_txt,values.xuexitime)]
+/ontrialend = [trial.NineRightJ_xuexi.clearstimulusframes()]
+</trial>
+
+
+A卷测试
+<trial FiveLeftF_xuexiceshi>
+/validresponse = ("F","J")
+/correctresponse = ("F")
+/stimulustimes  = [1=FiveLeftF_ceshi_txt;30 = dangban]
+</trial>
+
+<trial FiveLeftF_buxueceshi>
+/validresponse = ("F","J")
+/correctresponse = ("J")
+/stimulustimes  = [1=FiveLeftF_buxueceshi_txt;30 = dangban]
+</trial>
+
+
+
+<trial FiveRightF_xuexiceshi>
+/validresponse = ("F","J")
+/correctresponse = ("F")
+/stimulustimes  = [1=FiveRightF_ceshi_txt;30 = dangban]
+</trial>
+
+<trial FiveRightF_buxueceshi>
+/validresponse = ("F","J")
+/correctresponse = ("J")
+/stimulustimes  = [1=FiveRightF_buxueceshi_txt;30 = dangban]
+</trial>
+
+
+
+<trial NineLeftJ_xuexiceshi>
+/validresponse = ("F","J")
+/correctresponse = ("J")
+/stimulustimes = [1=NineLeftJ_ceshi_txt;30 = dangban]
+</trial>
+
+<trial NineLeftJ_buxueceshi>
+/validresponse = ("F","J")
+/correctresponse = ("F")
+/stimulustimes  = [1=NineLeftJ_buxueceshi_txt;30 = dangban]
+</trial>
+
+
+
+<trial NineRightJ_xuexiceshi>
+/validresponse = ("F","J")
+/correctresponse = ("J")
+/stimulustimes = [1=NineRightJ_ceshi_txt;30 = dangban]
+</trial>
+
+<trial NineRightJ_buxueceshi>
+/validresponse = ("F","J")
+/correctresponse = ("F")
+/stimulustimes = [1=NineRightJ_buxueceshi_txt;30 = dangban]
+</trial>
+
+
+
+
+
+B卷测试（xuexibuce）
+<trial FiveLeftF_xuexibuce>
+/validresponse = ("F","J")
+/correctresponse = ("F")
+/stimulustimes  = [1=FiveLeftF_buce_txt;30 = dangban]
+</trial>
+
+<trial FiveRightF_xuexibuce>
+/validresponse = ("F","J")
+/correctresponse = ("F")
+/stimulustimes  = [1=FiveRightF_buce_txt;30 = dangban]
+</trial>
+
+<trial NineLeftJ_xuexibuce>
+/validresponse = ("F","J")
+/correctresponse = ("J")
+/stimulustimes = [1=NineLeftJ_buce_txt;30 = dangban]
+</trial>
+
+<trial NineRightJ_xuexibuce>
+/validresponse = ("F","J")
+/correctresponse = ("J")
+/stimulustimes = [1=NineRightJ_buce_txt;30 = dangban]
+</trial>
+
+
+
+A，B两卷在测试方面，未学习汉字共用一个text
+
+
+
+
+
+
+
+
+
+
+<trial instruction1>
+/validresponse = (" ")
+/stimulusframes = [1 = instruction1]
+/correctresponse = (" ")
+/errormessage = false
+/recorddata = false
+</trial>
+
+<trial instruction2>
+/validresponse = (" ")
+/stimulusframes = [1 = instruction2]
+/correctresponse = (" ")
+/errormessage = false
+/recorddata = false
+</trial>
+
+<trial instruction3>
+/validresponse = (" ","Q")
+/stimulusframes = [1 = instruction3]
+/correctresponse = (" ")
+/errormessage = false
+/recorddata = false
+</trial>
+
+<trial jieshuyu>
+/validresponse = (" ")
+/stimulusframes = [1 = jieshuyu]
+/correctresponse = (" ")
+/errormessage = false
+/recorddata = false
+</trial>
+
+
+
+
+练习学习
+<trial lianxi_xuexi>
+/validresponse = (noresponse)
+/trialduration = values.xuexitime
+/ontrialbegin = [values.xuexitime = expressions.generaterandom500+50]
+/ontrialbegin = [trial.lianxi_xuexi.insertstimulustime(text.fixation, 0)]
+/ontrialbegin = [trial.lianxi_xuexi.insertstimulustime(picture.dangban,50)]
+/ontrialbegin = [trial.lianxi_xuexi.insertstimulustime(text.lianxi_xuexiceshi_txt,values.xuexitime)]
+/ontrialbegin = [trial.lianxi_xuexi.insertstimulustime(text.lianxi_xuexibuce_txt,values.xuexitime)]
+/ontrialend = [trial.lianxi_xuexi.clearstimulusframes()]
+</trial>
+
+练习测验
+<trial lianxi_xuexiceshi>
+/validresponse = ("F","J")
+/correctresponse = ("F")
+/stimulustimes  = [1=lianxi_ceshi_txt;30 = dangban]
+</trial>
+
+<trial lianxi_buxueceshi>
+/validresponse = ("F","J")
+/correctresponse = ("J")
+/stimulustimes  = [1=lianxi_buxueceshi_txt;30 = dangban]
+</trial>
+
+<trial lianxi_xuexibuce>
+/validresponse = ("F","J")
+/correctresponse = ("F")
+/stimulustimes  = [1=lianxi_buce_txt;30 = dangban]
+</trial>
+
+*************step4:定义block****************
+
+
+A卷
+<block FiveLeftF>
+/screencolor = (0,0,0)
+
+/trials = [1 = instruction1;2-11 = FiveLeftF_xuexi;12-31 = noreplace(FiveLeftF_xuexiceshi,FiveLeftF_buxueceshi)]
+</block>
+
+<block FiveRightF>
+/screencolor = (0,0,0)
+/trials = [1 = instruction1;2-11 = FiveRightF_xuexi;12-31 = noreplace(FiveRightF_xuexiceshi,FiveRightF_buxueceshi)]
+</block>
+
+
+<block NineLeftJ>
+/screencolor = (0,0,0)
+/trials = [1 = instruction2;2-11 = NineLeftJ_xuexi;12-31 = noreplace(NineLeftJ_xuexiceshi,NineLeftJ_buxueceshi)]
+</block>
+
+<block NineRightJ>
+/screencolor = (0,0,0)
+/trials = [1 = instruction2;2-11 = NineRightJ_xuexi;12-31 = noreplace (NineRightJ_xuexiceshi,NineRightJ_buxueceshi)]
+</block>
+
+<block lianxi>
+/screencolor = (0,0,0)
+/branch = [if (trial.instruction3.error) block.lianxi]
+/trials = [1 = instruction1;2-11 = lianxi_xuexi;12-31 = noreplace(lianxi_xuexiceshi,lianxi_buxueceshi);32 = summary;33 = instruction3]
+</block>
+
+
+B卷
+<block FiveLeftF_B>
+/screencolor = (0,0,0)
+/blockfeedback = (meanlatency,correct)
+/trials = [1 = instruction1;2-11 = FiveLeftF_xuexi;12-31 = noreplace(FiveLeftF_xuexibuce,FiveLeftF_buxueceshi)]
+</block>
+
+<block FiveRightF_B>
+/screencolor = (0,0,0)
+/trials = [1 = instruction1;2-11 = FiveRightF_xuexi;12-31 = noreplace(FiveRightF_xuexibuce,FiveRightF_buxueceshi)]
+</block>
+
+
+<block NineLeftJ_B>
+/screencolor = (0,0,0)
+/trials = [1 = instruction2;2-11 = NineLeftJ_xuexi;12-31 = noreplace(NineLeftJ_xuexibuce,NineLeftJ_buxueceshi)]
+</block>
+
+<block NineRightJ_B>
+/screencolor = (0,0,0)
+/trials = [1 = instruction2;2-11 = NineRightJ_xuexi;12-31 = noreplace (NineRightJ_xuexibuce,NineRightJ_buxueceshi)]
+</block>
+
+
+<block lianxi_B>
+/screencolor = (0,0,0)
+/branch = [if (trial.instruction3.error) block.lianxi_B]
+/trials = [1 = instruction1;2-11 = lianxi_xuexi;12-31 = noreplace(lianxi_xuexibuce,lianxi_buxueceshi);32 = summary_B;33 = instruction3]
+</block>
+
+
+
+
+<block jieshuyu>
+/screencolor = (0,0,0)
+/trials = [1 = jieshuyu]
+</block>
+
+
+
+<text summary>
+	/items = ("下面是您练习实验的正确率和平均反应时间给出的数据统计：
+               平均反应时间为:<%block.lianxi.meanlatency%>
+               平均反应正确率（%）:<%block.lianxi.percentcorrect%>
+               请按“空格键”继续实验 " )
+	/fontstyle = ("Arial", 40ptc)
+	/txbgcolor = (transparent)
+	/txcolor = (255,255,255)
+</text>
+
+<trial summary>
+/validresponse = (" ")
+/stimulusframes = [1 = summary]
+/correctresponse = (" ")
+/errormessage = false
+/recorddata = false
+</trial>
+
+
+
+
+<text summary_B>
+	/items = ("下面是您练习实验的正确率和平均反应时间给出的数据统计：
+               平均反应时间为:<%block.lianxi_B.meanlatency%>
+               平均反应正确率（%）:<%block.lianxi_B.percentcorrect%>
+               请按“空格键”继续实验 " )
+	/fontstyle = ("Arial", 40ptc)
+	/txbgcolor = (transparent)
+	/txcolor = (255,255,255)
+</text>
+
+<trial summary_B>
+/validresponse = (" ")
+/stimulusframes = [1 = summary_B]
+/correctresponse = (" ")
+/errormessage = false
+/recorddata = false
+</trial>
+
+
+**********************step5:定义experiment*********************
+
+<expt >
+/subjects = (1 of 2)
+/blocks = [1 = lianxi;2-5= noreplace (FiveLeftF,FiveRightF,NineLeftJ,NineRightJ);6 = jieshuyu]
+</expt>
+
+<expt >
+/subjects = (2 of 2)
+/blocks = [1 = lianxi_B;2-5= noreplace (FiveLeftF_B,FiveRightF_B,NineLeftJ_B,NineRightJ_B); 6 = jieshuyu]
+</expt>
